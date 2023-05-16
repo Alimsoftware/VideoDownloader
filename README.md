@@ -23,10 +23,10 @@ Um aplicativo para dispositivos Android que permite a análise e o download de v
 
 ## Plataformas de vídeo suportadas
 
-* [x] Kuaishou
-* [x] Douyin
-* [x] TikTok
-* [x] [AcFun, um site de vídeos com comentários em tempo real](https://www.acfun.cn/)
+* [x] [Kuaishou](https://www.kuai https s)
+* [x] [Douyin](https://www.douyin.com/)
+* [x] [TikTok](https://www.tiktok.com/)
+* [x] [AcFun](https://www.acfun.cn/): Um site de vídeos com comentários em tempo real
 * [x] [iQiyi](https://m.iqiyi.com/)
 * [x] [Bilibili](https://www.bilibili.com/)
 * [x] [Mango TV](https://mgtv.com/)
