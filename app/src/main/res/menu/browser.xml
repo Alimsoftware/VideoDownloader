@@ -12,22 +12,22 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/order_create_at"
-            android:title="日期" />
+            android:title="Data" />
         <item
             android:id="@+id/order_duration"
-            android:title="时长" />
+            android:title="Duração" />
         <item
             android:id="@+id/order_size"
-            android:title="大小" />
+            android:title="Tamanho" />
     </group>
 
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/order_decrease"
-            android:title="递减" />
+            android:title="Decrescente" />
         <item
             android:id="@+id/order_increase"
-            android:title="递增" />
+            android:title="Crescente" />
     </group>
 
 </menu>
