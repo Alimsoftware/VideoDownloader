@@ -1,67 +1,71 @@
-此项目已停止更新，请关注 https://github.com/grandiloquent/91porn-client
+Este projeto foi interrompido, por favor, acompanhe as atualizações https://github.com/grandiloquent/91porn-client
 
-# 视频浏览器
+# Navegador de vídeos
 
-一个可以解析和下载各大平台视频的Android手机软件。
+Um aplicativo para dispositivos Android que permite a análise e o download de vídeos de várias plataformas.
 
 <img src="images/3.gif" width="33.3%"><img src="images/1.gif" width="33.3%">
 
-## 更新历史
+## Histórico de atualizações
 
 * 1.1.5
 
-    * 优化观看已下载视频的逻辑
+    * Melhorias na lógica de reprodução de vídeos já baixados.
 
 * 1.1.4
 
-    * 修正下载视频时的BUG
+    * Correção de bugs ao baixar vídeos.
 
 * 1.1.3
 
-    * 优化下载 m3u8 格式视频的逻辑
-    * 下载 91porn、57ck、xvideos 平台视频，使用标题保存文件，更便于辨识
+    * Melhorias na lógica de download de vídeos no formato m3u8.
+    * Baixe vídeos das plataformas 91porn, 57ck e xvideos, salvando os arquivos com seus respectivos títulos, para facilitar a identificação.
 
-## 支持的视频平台
+## Plataformas de vídeo suportadas
 
-* [x] 快手
-* [x] 抖音
+* [x] Kuaishou
+* [x] Douyin
 * [x] TikTok
-* [x] [AcFun弹幕视频网](https://www.acfun.cn/)
-* [x] [爱奇艺](https://m.iqiyi.com/)
-* [x] [B站](https://www.bilibili.com/)
-* [x] [芒果TV](https://mgtv.com/)
-* [x] [腾讯视频](https://v.qq.com/)
-* [x] [西瓜视频](https://m.ixigua.com/)
-* [x] [中央卫视](https://tv.cctv.com/m/index.shtml)
+* [x] [AcFun, um site de vídeos com comentários em tempo real](https://www.acfun.cn/)
+* [x] [iQiyi](https://m.iqiyi.com/)
+* [x] [Bilibili](https://www.bilibili.com/)
+* [x] [Mango TV](https://mgtv.com/)
+* [x] [Tencent Video](https://v.qq.com/)
+* [x] [Xigua Video](https://m.ixigua.com/)
+* [x] [CCTV](https://tv.cctv.com/m/index.shtml)
 * [x] [Twitter](https://m.twitter.com)
 * [x] [YouTube](https://m.youtube.com)
-* [x] [91porn](https://91porn.com/index.php): 批量下载视频
+* [x] [91porn](https://91porn.com/index.php): Download de vídeos em massa
 * [x] [XVideos](https://xvideos.com)
 * [x] [PornHub](https://www.pornhub.com)
 * [x] [PornOne](https://pornone.com/)
 * [x] http://57ck.cc/
-* [x] [搜索视频](http://47.106.105.122)
+* [x] [Pesquisar vídeos](http://47.106.105.122)
 
-## 腾讯视频会员
+## Membro do Tencent Video
 
-下载安装**腾讯会议**手机软件，通过福利入口绑定邮箱可领取**7天腾讯视频会员**
+Baixe e instale o aplicativo móvel **Tencent Meeting**, vincule seu e-mail através da opção de benefícios para receber *"7 dias de associação ao Tencent Video.**
 
-使用浏览器登陆腾讯视频后，`F12`键 > 控制台 > 粘贴代码 `document.cookie` 回车执行 > 复制单引号中间的字符串 > 粘贴到该软件即可下载腾讯会员视频
+Após fazer login no Tencent Video através do navegador, pressione a tecla F12, vá para a guia 'Console', cole o código document.cookie, pressione Enter, copie a sequência de caracteres entre as aspas simples e cole-a no software correspondente para baixar vídeos do Tencent Video.
 
-## 使用方法
+## Método de uso
 
-* 打开视频页面点击视频，在不影响体验的状态下，将自动解析播放
-* 打开视频所在页面，点击顶部下载按钮进行解析
-* 视频存放目录：*/storage/emulated/0/Download* 和 */storage/emulated/0/Android/data/euphoria.psycho.explorer/files/Download*
+* Abrir a página de vídeo e clicar no vídeo para reproduzi-lo automaticamente com resolução sem prejudicar a experiência
+* Abra a página onde o vídeo está localizado e clique no botão de download na parte superior para iniciar a análise/extracção."
 
-*由于Android新版本更严格的储存策略，可以通过数据线连续电脑访问/storage/emulated/0/Android/data/euphoria.psycho.explorer/files/Download目录下的视频文件*
+Quanto aos diretórios de armazenamento mencionados, eles são:
 
-## 程序下载
+*/storage/emulated/0/Download*
+*/storage/emulated/0/Android/data/euphoria.psycho.explorer/files/Download*
 
-* [示例](https://github.com/grandiloquent/VideoBrowser/releases)
-* [国内](https://lucidu.cn/article/jqdkgl)
+*Devido às políticas de armazenamento mais restritas nas novas versões do Android, é possível acessar os arquivos de vídeo na pasta "/storage/emulated/0/Android/data/euphoria.psycho.explorer/files/Download" conectando o dispositivo Android ao computador por meio de um cabo de dados. Dessa forma, você poderá visualizar e transferir os arquivos de vídeo para o computador*
 
-## 引用
+## Download do programa
+
+* [Exemplo](https://github.com/grandiloquent/VideoBrowser/releases)
+* [Nacional](https://lucidu.cn/article/jqdkgl)
+
+## Referências 
 
 * https://github.com/HaarigerHarald/android-youtubeExtractor
 * https://github.com/soarcn/BottomSheet
@@ -71,18 +75,17 @@
 * https://github.com/openssl/openssl
 * https://github.com/google/brotli
 
-## How to download TikTok videos?
+## Como baixar vídeos do TikTok?
 
-1. Copy the video shared link or page address from the tiktok application or website, some like:
+1. Copie o link compartilhado do vídeo ou o endereço da página do aplicativo ou site do TikTok, algo como:
 
         https://vm.tiktok.com/ZSJkHUCwK/
         https://www.tiktok.com/@travelscenerykj/video/6990367736601922822
 
-2. Click the add link button in the upper left corner
+2. Clique no botão de adicionar link no canto superior esquerdo.
+3. Cole o link compartilhado do vídeo ou o endereço da página na entrada e, em seguida, clique no botão "OK".
 
-3. Paste the video shared link or page address into the input,then click the ok button.
+## Problemas
 
-## 问题
-
-* 如果某些页面的视频无法下载，请使用菜单刷新页面
-* 如果某些视频提示无法解析，请再次尝试，或者通过[此链接反馈](http://lucidu.cn/feedback)。
+* Se você não conseguir baixar vídeos de algumas páginas, tente atualizar a página usando o menu.
+* Se você encontrar vídeos que não podem ser analisados, tente novamente ou envie um feedback através deste [link](http://lucidu.cn/feedback) para relatar o problema.
