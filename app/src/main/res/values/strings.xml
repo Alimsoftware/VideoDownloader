@@ -1,60 +1,61 @@
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Video Browser</string>
-    <string name="ask">Ask</string>
-    <string name="bookmark2_button">Bookmark</string>
-    <string name="channel_download_videos">Download Videos</string>
-    <string name="copy_button">Copy</string>
-    <string name="delete">Delete</string>
-    <string name="download">download</string>
-    <string name="download_complete">Download completed</string>
-    <string name="download_ready">Ready to download the video</string>
-    <string name="download_video">Download video</string>
-    <string name="edit">Edit</string>
-    <string name="failed_to_create_task">Failed to create task</string>
-    <string name="failed_to_get_video_list">Failed to get video list</string>
-    <string name="favorite_border">Add bookmark</string>
-    <string name="help_outline">Help</string>
-    <string name="merge_complete">Merger complete</string>
-    <string name="merge_start">mergeStart</string>
-    <string name="need_permissions">The application cannot run without the necessary permissions</string>
-    <string name="parsing">Parsing…</string>
-    <string name="playlist_play">Video</string>
-    <string name="refresh_button">Refresh</string>
-    <string name="save">保存页面</string>
-    <string name="settings">Settings</string>
-    <string name="share">Share</string>
-    <string name="video_list_name">Browse videos</string>
-    <string name="waiting">Waiting</string>
-    <string name="whether_to_use_the_browser_to_open_the_video_link">Whether to use the browser to open the video link</string>
-    <string name="unable_to_extract_video">Unable to extract the video</string>
-    <string name="error_cleartext_not_permitted">Cleartext HTTP traffic not permitted. See https://exoplayer.dev/issues/cleartext-not-permitted</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"> 
+    <string name="app_name">Navegador de vídeo</string> 
+    <string name="ask">Perguntar</string> 
+    <string name="bookmark2_button">Favorito</string> 
+    <string name="channel_download_videos">Baixar vídeos</string> 
+    <string name="copy_button">Copiar</string> 
+    <string name="delete">Excluir</string> 
+    <string name="Baixar">Baixar</string> 
+    <string name="download_complete">Transferência concluída</string> 
+    <string name="download_ready">Pronto para baixar o vídeo</string> 
+    <string name="download_video">Baixar vídeo </string> 
+    <string name="edit">Editar</string> 
+    <string name="failed_to_create_task">Falha ao criar tarefa</string> 
+    <string name="failed_to_get_video_list">Falha ao obter a lista de vídeos</string> 
+    <string name="favorite_border">Adicionar favorito</string> 
+    <string name="help_outline">Ajuda</string> 
+    <string name="merge_complete">Mesclagem concluída</string> 
+    <string name="merge_start">mergeStart</string> 
+    <string name="need_permissions">O aplicativo não pode ser executado sem as permissões necessárias</string> 
+    <string name="parsing">Analisando…</string> 
+    <string name="playlist_play">Vídeo </string> 
+    <string name="refresh_button">Atualizar</string> 
+    <string name="save">Salvar pagina</string> 
+    <string name="settings">Configurações </string> 
+    <string name="share">Compartilhar</string> 
+    <string name="video_list_name">Procurar vídeos</string> 
+    <string name="waiting">Esperando</string> 
+    <string name="whether_to_use_the_browser_to_open_the_video_link">Se deve usar o navegador para abrir o link do vídeo</string> 
+    <string name="unable_to_extract_video">Não foi possível extrair o vídeo</string> 
+    <string name="error_cleartext_not_permitted">Tráfego HTTP de texto simples não permitido. Ver https://exoplayer.dev/issues/cleartext-not-permitted</string> 
+ 
+    <string name="error_generic">A reprodução falhou</string> 
+ 
+    <string name="error_drm_unsupported_before_api_18">Conteúdo DRM não suportado em níveis de API abaixo de 18</string> 
+ 
+    <string name="error_drm_unsupported_scheme">Este dispositivo não suporta o esquema DRM necessário</string> 
+ 
+    <string name="error_no_decoder">Este dispositivo não fornece um decodificador para <xliff:g id="mime_type">%1$s</xliff:g></string> 
+ 
+    <string name="error_no_secure_decoder">Este dispositivo não fornece um decodificador seguro para <xliff:g id="mime_type">%1$s</xliff:g></string> 
+ 
+    <string name="error_querying_decoders">Não foi possível consultar os decodificadores do dispositivo</string> 
+ 
+    <string name="error_instantiating_decoder">Não foi possível instanciar o decodificador <xliff:g id="decoder_name">%1$s</xliff:g></string> 
+ 
+    <string name="error_unsupported_video">A mídia inclui faixas de vídeo, mas nenhuma pode ser reproduzida por este dispositivo</string> 
+ 
+    <string name="error_unsupported_audio">A mídia inclui faixas de áudio, mas nenhuma pode ser reproduzida por este dispositivo</string> 
+ 
+    <string name="start_downloading_the_b_station_video">Comece a baixar o vídeo da estação B</string> 
+    <string name="video_downloaded_successfully">Vídeo baixado com sucesso</string> 
+    <string name="start_merging_videos">Começar a mesclagem de vídeos</string> 
+    <string name="videos_successfully_merged">Vídeos mesclados com sucesso</string> 
+    <string name="ready_to_download_station_b_video">Pronto para baixar o vídeo da estação B</string> 
+    <string name="download_failed">Download falhou</string> 
+    <string name="Pausar ">Pausar </string> 
+    <string name="start_download">Iniciar o download</string> 
+    <string name="video_downloaded">Vídeo baixado </string> 
+    <string name="create_task">Criar tarefa...</string> 
+</resources> 
 
-    <string name="error_generic">Playback failed</string>
-
-    <string name="error_drm_unsupported_before_api_18">DRM content not supported on API levels below 18</string>
-
-    <string name="error_drm_unsupported_scheme">This device does not support the required DRM scheme</string>
-
-    <string name="error_no_decoder">This device does not provide a decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
-
-    <string name="error_no_secure_decoder">This device does not provide a secure decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
-
-    <string name="error_querying_decoders">Unable to query device decoders</string>
-
-    <string name="error_instantiating_decoder">Unable to instantiate decoder <xliff:g id="decoder_name">%1$s</xliff:g></string>
-
-    <string name="error_unsupported_video">Media includes video tracks, but none are playable by this device</string>
-
-    <string name="error_unsupported_audio">Media includes audio tracks, but none are playable by this device</string>
-
-    <string name="start_downloading_the_b_station_video">Start downloading the B station video</string>
-    <string name="video_downloaded_successfully">Video downloaded successfully</string>
-    <string name="start_merging_videos">Start merging videos</string>
-    <string name="videos_successfully_merged">Videos successfully merged</string>
-    <string name="ready_to_download_station_b_video">Ready to download station B video</string>
-    <string name="download_failed">download failed</string>
-    <string name="pause">pause</string>
-    <string name="start_download">start download</string>
-    <string name="video_downloaded">Video downloaded</string>
-    <string name="create_task">Create task...</string>
-</resources>
