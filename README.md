@@ -23,7 +23,7 @@ Um aplicativo para dispositivos Android que permite a análise e o download de v
 
 ## Plataformas de vídeo suportadas
 
-* [x] [Kuaishou](https://www.kuai https s)
+* [x] [Kuaishou](https://m.kuaishou.com/)
 * [x] [Douyin](https://www.douyin.com/)
 * [x] [TikTok](https://www.tiktok.com/)
 * [x] [AcFun](https://www.acfun.cn/): Um site de vídeos com comentários em tempo real
