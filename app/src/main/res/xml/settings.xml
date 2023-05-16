@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <EditTextPreference
-        android:dialogTitle="设置腾讯视频会员信息"
+        android:dialogTitle="Configurar informações de associação ao Tencent Video"
         android:inputType="text"
         android:key="key_tencent"
-        android:summary="设置用于下载腾讯会员视频的Cookie"
-        android:title="设置腾讯视频会员信息" />
+        android:summary="Configurar o Cookie para baixar vídeos de assinantes do Tencent Video"
+        android:title="Configurar informações de associação ao Tencent Video" />
     <CheckBoxPreference
         android:defaultValue="true"
         android:key="in_china"
-        android:title="是否为中国大陆用户" />
+        android:title="Você é um usuário da China continental?" />
     <CheckBoxPreference
         android:defaultValue="false"
         android:key="load_external_storage_card"
-        android:title="预览视频时，是否加载扩展储存根目录下载 Videos 目录中视频" />
+        android:title="Durante a visualização de vídeos, os vídeos da pasta 'Videos' localizada no diretório raiz do armazenamento externo são carregados para download?" />
     <EditTextPreference
         android:digits="0123456789"
         android:defaultValue="1"
-        android:dialogTitle="更新视频列表"
+        android:dialogTitle="Atualizar lista de vídeos"
         android:inputType="number"
         android:key="videos_max"
-        android:summary="获取最新的服务处列表"
-        android:title="更新视频列表" />
+        android:summary="Obter a lista mais recente de provedores de serviço"
+        android:title="Atualizar lista de vídeos" />
 </PreferenceScreen>
