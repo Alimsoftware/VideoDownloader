@@ -2,10 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/action_rename"
-        android:title="重命名" />
+        android:title="Renomear" />
     <item
         android:id="@+id/action_move"
-        android:title="移动" />
+        android:title="Mover" />
     <item
         android:id="@+id/action_delete"
         android:title="@string/delete" />
