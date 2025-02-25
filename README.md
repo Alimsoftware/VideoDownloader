@@ -1,5 +1,4 @@
-Este projeto foi interrompido, por favor, acompanhe as atualizações https://github.com/grandiloquent/91porn-client
-
+Este projeto foi interrompido.
 # Navegador de vídeos
 
 Um aplicativo para dispositivos Android que permite a análise e o download de vídeos de várias plataformas.
